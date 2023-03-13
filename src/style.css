@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.ant-layout-content {
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.ant-layout-header {
+  display: flex;
+  justify-content: flex-start;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.ant-layout-header .title {
+  margin-right: 16px;
+}
+
+/* スクロールバー */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* スクロールバーのトラック */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* スクロールバーのボタン */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* スクロールバーのボタンをクリックした時のスタイル */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
